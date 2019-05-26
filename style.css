@@ -1,0 +1,18 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 10px 30px 10px;
+}
+
+.header img {
+    height: 40px;
+    width: auto;
+}
+
+.header input {
+    flex-basis: 50%;
+}
+
+hr {
+    opacity: 0.2;
+}
