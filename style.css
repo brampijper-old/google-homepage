@@ -10,9 +10,12 @@
 }
 
 .header input {
-    flex-basis: 50%;
     border-radius: 25px;
     box-shadow:none;
+}
+
+.flex-basis {
+    flex-basis: 50%;
 }
 
 hr {
@@ -27,4 +30,28 @@ hr {
 .google-toolbar img {
     height:25px;
     width: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.first-result {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom:25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a small {
+    color:#006621; 
+}
+
+.results {
+    padding: 5px 20px 20px 20px;
 }
