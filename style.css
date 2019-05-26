@@ -1,7 +1,7 @@
 .header {
     display:flex;
     justify-content: space-between;
-    margin: 30px 10px 30px 10px;
+    margin: 30px 10px 15px 10px;
 }
 
 .header img {
@@ -15,4 +15,14 @@
 
 hr {
     opacity: 0.2;
+}
+
+.google-toolbar {
+    display: flex;
+    justify-content: center;
+}
+
+.google-toolbar img {
+    height:25px;
+    width: auto;
 }
