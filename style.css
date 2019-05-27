@@ -4,8 +4,9 @@ body {
 }
 
 .header {
+    width:100%;
     display:inline-flex;
-    margin: 30px 0px 10px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 .header img {
@@ -18,7 +19,7 @@ body {
 .header input {
     width: 630px;
     height: 50px;
-    margin: 0px 0px 10px 140px; 
+    margin: 0px 0px 0px 140px; 
     border-radius: 25px;
     padding-left:15px;
     transition: box-shadow .3s;
@@ -35,8 +36,8 @@ body {
 .header ul {
     list-style:none;
     display: inline-flex;
-    float:right;
     margin: 10px 50px 0px 0px;
+    margin-left:auto;
 }
 
 .header ul li {
@@ -48,6 +49,27 @@ body {
     margin-top:-5px;
 }
 
+.sub-header {
+    margin: -15px 0px 0px 100px;
+    width: 100%;
+}
+
+.sub-header ul {
+    display: inline-flex;
+    list-style:none;
+}
+
+.sub-header ul li {
+    padding: 11px;
+}
+
+.sub-header ul li a, .sub-header ul li i {
+    color: #5f6368; 
+}
+
+.sub-header ul li a:hover, .sub-header ul li i:hover {
+    color: #1a0dab; 
+}
 .flex-basis {
     flex-basis: 50%;
 }
