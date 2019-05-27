@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "sans-serif";
+    font-family: arial,sans-serif;
 }
 
 .header {
@@ -50,25 +50,52 @@ body {
 }
 
 .sub-header {
-    margin: -15px 0px 0px 100px;
+    margin: -20px 0px 0px 103px;
     width: 100%;
 }
 
 .sub-header ul {
     display: inline-flex;
     list-style:none;
+    margin-bottom: -8px;
 }
 
 .sub-header ul li {
+    font-size: 13px;
     padding: 11px;
 }
 
-.sub-header ul li a, .sub-header ul li i {
+.sub-header ul li a {
     color: #5f6368; 
 }
 
-.sub-header ul li a:hover, .sub-header ul li i:hover {
-    color: #1a0dab; 
+.sub-header ul li a:hover {
+    color: #1a73e8; 
+}
+
+
+.sub-header ul li a i {
+    font-size: 16px;
+}
+
+#border-bottom {
+    border-bottom: 5px solid #1a73e8; 
+}
+
+#settings-container {
+    display: inline-flex;
+    margin: 4px 0px 0px 50px;
+}
+
+#tools-hover {
+    padding: 6px;
+}
+
+#tools-hover:hover{
+    color: #5f6368;
+    background-color: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(71, 71, 71, 0.1); 
 }
 .flex-basis {
     flex-basis: 50%;
@@ -76,16 +103,6 @@ body {
 
 hr {
     opacity: 0.2;
-}
-
-.google-toolbar {
-    display: flex;
-    justify-content: center;
-}
-
-.google-toolbar img {
-    height:25px;
-    width: auto;
 }
 
 .content {
