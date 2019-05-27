@@ -26,7 +26,7 @@ html, body {
     transition: box-shadow .3s;
     border: solid 1px rgba(0, 0, 0, 0.15);
 
-    background: url(./microphone-icon.PNG) no-repeat scroll 545px 7px, url(./search-icon.PNG) no-repeat scroll 585px 10px;
+    background: url(./static/microphone-icon.PNG) no-repeat scroll 545px 7px, url(./static/search-icon.PNG) no-repeat scroll 585px 10px;
     background-size: 24px, 27px, auto;
 }
 
