@@ -1,6 +1,7 @@
-body {
+html, body {
     margin: 0;
     font-family: arial,sans-serif;
+    width:100% !important;
 }
 
 .header {
@@ -220,16 +221,31 @@ a small {
     font-weight: 800;
 }
 
-footer {
+.footer {
     margin-top: 15px;
-    justify-content: center;
-    display:flex;
-    height:90px;
-    background-color:lightgray;
+    height:80px;
     opacity: 0.6;
+    background-color:rgba(0,0,0,.14);
+    font-size:13px;
+    width:100%;
 }
 
-.footer-content a {
-    margin:10px;
+.footer-content {
+    margin-left:155px;
+    padding: 4px;
+}
 
+.footer-subcontent{
+    margin-top:-5px;
+    margin-left:160px;
+}
+
+.footer-subcontent a {
+    padding-right: 15px;
+}
+
+
+
+.footer-subcontent hr {
+    opacity: 0.9;
 }
