@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     font-family: arial,sans-serif;
-    width:100% !important;
+    display:block;
 }
 
 .header {
@@ -52,7 +52,6 @@ html, body {
 
 .sub-header {
     margin: -20px 0px 0px 103px;
-    width: 100%;
 }
 
 .sub-header ul {
