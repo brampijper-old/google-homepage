@@ -1,2 +1,1 @@
-# google-homepage
-Rebuilding the google search results page
+One of the earlier and (easier) challenges: Build the Google homepage with CSS & HTML.
